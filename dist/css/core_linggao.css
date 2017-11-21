@@ -1,0 +1,81 @@
+
+.content{
+    padding-bottom:138px;
+}
+.msg{
+    padding-bottom:22px;
+}
+.msg p{
+    font:16px/24px '微软雅黑';
+    color:#868686;
+}
+.msg .img{
+    padding-top:38px;
+}
+.msg .img , .msg .img img{
+    display:block;
+    width:100%;
+}
+
+
+
+/*功能*/
+.function{
+    padding-bottom:42px;
+}
+.function li{
+    width:49%;
+    margin-right:2%;
+    float:left;
+}
+.function li:nth-child(2n){
+    margin-right:0;
+}
+.function li .img , .function li .img img{
+    display:block;
+    width:100%;
+}
+.function li h2 a{
+    display:block;
+    font:14px/68px '微软雅黑';
+    color:#878787;
+}
+
+
+/*运营*/
+.operate .opation{
+    padding-bottom:16px;
+}
+.operate .opation p{
+    font:14px/26px '微软雅黑';
+    color:#838383;
+
+}
+
+
+/*联系*/
+.contact p{
+    padding-left:32px;
+    font:14px/40px '微软雅黑';
+    color:#838383;
+    background:url('../img/tell1.png') no-repeat left center;
+    background-size:1%;
+}
+
+.contact p:first-child+p{
+    background:url('../img/icon8.png') no-repeat left center;
+}
+.contact p:first-child+p+p{
+    background:url('../img/icon14.png') no-repeat left center;
+}
+.contact p:first-child+p+p+p{
+    background:url('../img/address1.png') no-repeat left top;
+    font:14px/18px '微软雅黑';
+
+}
+
+
+/*change*/
+.sub_crumbs{
+    margin:0 auto 18px;
+}

@@ -1,0 +1,238 @@
+
+
+/*content*/
+.content{
+    /*width:1200px;*/
+    /*padding:0 114px;*/
+    margin:0 auto;
+}
+
+/*news*/
+.content .news{
+    padding:40px 58px 0;
+}
+.content .news .wrap{
+    width:100%;
+    overflow-x:hidden;
+}
+.content .news .wrap li{
+    float:left;
+}
+.content .news .wrap li .item{
+    float:left;
+    width:32%;
+    margin-left:2%;
+}
+.content .news .wrap li .item:first-child{
+    margin-left:0;
+}
+.content .news .wrap ul{
+    position:relative;
+}
+.content .news .wrap li .item a , .content .news .wrap li .item a img{
+    display:block;
+    width:100%;
+}
+.content .news .wrap li .item h2{
+    margin-top:14px;
+}
+.content .news .wrap li .item h2 a{
+    font:16px/28px '微软雅黑';
+    color:#393939;
+}
+.content .news .wrap li .item p a{
+    font:12px/22px '微软雅黑';
+    color:#828282;
+}
+
+.tab_btn{
+    text-align:center;
+}
+.tab_btn span{
+    display:inline-block;
+    width:48px;
+    height:8px;
+    background:#ebebeb;
+    margin-left:10px;
+    cursor:pointer;
+}
+.tab_btn{
+    padding-top:50px;
+}
+.tab_btn .active{
+    background:#7c7c7c;
+}
+
+
+/*/news_img*/
+.news_img{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:96px 0 46px;
+}
+.news_img .left{
+    width:46%;
+    position:relative;
+}
+.news_img .left a , .news_img .left img{
+    display:block;
+}
+.news_img .left img{
+    width:100%;
+}
+.news_img .right{
+    width:54%;
+}
+.news_img .left .tip_msg{
+    display:inline-block;
+    padding:17px 30px;
+    background:rgba(254,255,254,.7);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.news_img .left .tip_msg h2 a{
+    font:20px/30px '微软雅黑';
+    color:#c9a063;
+    text-align:center;
+}
+.news_img .left .tip_msg h3 a{
+    font:12px/24px '微软雅黑';
+    color:#9c9c9c;
+    text-align:center;
+}
+
+.news_img .right li{
+    float:left;
+    width:50%;
+}
+.news_img .right a , .news_img .right li a img{
+    display:block;
+    width:100%;
+}
+.news_img .right li  h2{
+    margin-top:14px;
+    padding-left:12px;
+}
+.news_img .right li  h2 a{
+    font:16px/28px '微软雅黑';
+    color:#cea870;
+}
+.news_img .right li  p{
+    padding:0 0 10px 12px;
+}
+.news_img .right li  p a{
+    font:12px/22px '微软雅黑';
+    color:#9c9c9c;
+}
+
+
+/*about_us*/
+.about_us{
+    padding:70px 0 100px;
+}
+.about_us .left{
+    width:50%;
+    padding-right:24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float:left;
+}
+.about_us .right{
+    width:50%;
+    padding-left:24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float:left;
+
+}
+.about_us .left li{
+   padding-left:5px;
+   margin-bottom:10px;
+}
+.about_us .left li h2{
+   position:relative;
+   padding-left:16px;
+   border-bottom:1px solid #eaeaea;
+   margin-bottom:6px;
+}
+.about_us .left li h2:before{
+   content:'';
+   display:block;
+   width:5px;
+   height:18px;
+   background:#c9a063;
+   position:absolute;
+   top:50%;
+   left:0;
+   margin-top:-9px;
+}
+.about_us .left li h2 a{
+   display:block;
+   font:16px/48px '微软雅黑';
+   color:#393939;
+   text-align:left;
+   font-weight:bold;
+
+}
+.about_us .left li p{
+    display:block;
+    font:16px/26px '微软雅黑';
+    color:#393939;
+    text-align:left;
+    color:#7c7c7c;
+}
+.about_us .right a , .about_us .right a img{
+    display: block;
+    width:100%;
+}
+
+
+/*change*/
+.banner .btn_pre{display:block;
+    /*width:54px;*/
+    /*height:104px;*/
+    width:32px;
+    height:32px;
+    /*background:url(../img/btn_pre.png) no-repeat;*/
+    background:#676767 url(../img/back.png) no-repeat center;
+    background-size:40%;
+    position:absolute;
+    /*left:138px;*/
+    left:0;
+    top:158px;
+    top:50%;
+    margin-top:-16px;
+    cursor:pointer;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transition:.5s;
+}
+/*.banner .btn_pre:hover{background:url(../img/btn_pre1.png) no-repeat;background-size:54px 104px;*/
+    /*cursor:pointer;}*/
+.banner .btn_nex{display:block;
+    /*width:54px;*/
+    /*height:104px;*/
+    width:32px;
+    height:32px;
+    background:#676767 url(../img/next.png) no-repeat center;
+    background-size:40%;
+    position:absolute;
+    right:0;
+    top:50%;
+    margin-top:-16px;
+    cursor:pointer;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transition:.5s;
+}
+
+.banner:hover .btn_nex , .banner:hover .btn_pre{
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+/*.banner .btn_nex:hover{background:url(../img/btn_nex1.png) no-repeat;background-size:54px 104px;*/
+    /*cursor:pointer;}*/

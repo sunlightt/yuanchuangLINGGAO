@@ -1,0 +1,146 @@
+
+.know_us{
+    padding:36px 74px 0;
+}
+.know_us p{
+    font:16px/28px '微软雅黑';
+    color:#565656;
+    margin-top:28px;
+}
+.know_us p:first-child{
+    margin-top:0;
+}
+
+/*culture*/
+
+.culture{
+    padding:56px 74px 0;
+}
+.culture .wrap {
+    padding-left:20px;
+}
+.culture .wrap li{
+    margin-top:56px;
+}
+.culture .wrap li:first-child{
+    margin-top:0;
+}
+.culture .wrap li .left{
+    float:left;
+    width:80px;
+    margin-right:58px;
+}
+.culture .wrap  li .left img{
+    display:block;
+    width:100%;
+}
+.culture  .wrap li .right{
+    float:left;
+}
+
+.culture  .wrap li .right h2{
+     font:16px/24px '微软雅黑';
+     color:#616161;
+     padding-bottom:8px;
+ }
+.culture  .wrap li .right p{
+    font:16px/22px '微软雅黑';
+    color:#616161;
+}
+
+
+/*aim*/
+.aim{
+     padding-top:148px;
+}
+.aim li{
+    width:28.3%;
+    float:left;
+    margin-left:5%;
+}
+.aim li:first-child{
+    margin-left:0;
+}
+.aim li .img , .aim li .img img{
+    display:block;
+    width:142px;
+    height:142px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50% ;
+    border-radius:50%;
+    margin:0 auto;
+}
+.aim li h2{
+    padding-top:16px;
+}
+.aim li h2 a{
+    display:block;
+    font:20px/56px '微软雅黑';
+    color:#545454;
+    text-align:center;
+}
+.aim li p{
+    font:16px/22px '微软雅黑';
+    color:#848484;
+    cursor: pointer;
+}
+
+/*公司概要*/
+.summary{
+    padding:80px 74px 0;
+}
+.sub_crumbs {
+    width:100%;
+    position:relative;
+    padding-left:18px;
+    margin-bottom:56px;
+    box-sizing:border-box;
+}
+.sub_crumbs:before{
+    content:'';
+    display:block;
+    width:6px;
+    height:16px;
+    background:#c9a063;
+    position:absolute;
+    top:4px;
+    left:6px;
+}
+
+.summary .left{
+    width:49%;
+    float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:20px 0 0 32px;
+}
+.summary .right{
+    width:49%;
+    float:right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:0 32px 0 0 ;
+}
+
+.summary .left p{
+    font:16px/20px '微软雅黑';
+    color:#848484;
+    padding:22px 0 22px 86px;
+    background:url("../img/tell.png") no-repeat left center;
+    background-size:7%;
+    margin-bottom:28px;
+}
+.summary .left p:first-child+p{
+     background:url("../img/email.png") no-repeat left center;
+ }
+.summary .left p:first-child+p+p{
+    background:url("../img/address.png") no-repeat left center;
+}
+
+/*.summary .right img{*/
+    /*display:block;*/
+    /*width:100%;*/
+/*}*/
+

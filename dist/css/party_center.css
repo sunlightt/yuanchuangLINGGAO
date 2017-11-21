@@ -1,0 +1,125 @@
+
+
+/*概述*/
+/*about_us*/
+.party_msg{
+}
+.party_msg .left{
+    width:75%;
+    padding-right:24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float:left;
+}
+.party_msg .right{
+    width:25%;
+    padding-left:24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float:left;
+
+}
+.party_msg li .left {
+    padding-left:5px;
+    margin-bottom:46px;
+}
+.party_msg li .left  h2{
+    position:relative;
+    padding-left:16px;
+    border-bottom:1px solid #eaeaea;
+    margin-bottom:6px;
+}
+.party_msg li  .left  h2:before{
+    content:'';
+    display:block;
+    width:5px;
+    height:18px;
+    background:#c9a063;
+    position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-9px;
+}
+.party_msg li  .left h2 a{
+    display:block;
+    font:16px/48px '微软雅黑';
+    color:#393939;
+    text-align:left;
+    font-weight:bold;
+}
+.party_msg li .left  p{
+    display:block;
+    font:16px/26px '微软雅黑';
+    color:#393939;
+    text-align:left;
+    color:#7c7c7c;
+}
+.party_msg .right a , .party_msg .right a img{
+    display: block;
+    width:100%;
+}
+
+
+/*政企建党人员*/
+.party_person{
+    padding:58px 48px 0;
+}
+.party_person .wrap{
+    width:100%;
+    transtion:all .5s ease-out-in;
+}
+.party_person .wrap ul:first-child{
+    padding-bottom:30px;
+}
+.party_person .wrap li{
+    width:23%;
+    margin-right:2%;
+    box-sizing:border-box;
+    float:left;
+    /*padding-top:30px;*/
+}
+.party_person .wrap li:first-child,
+.party_person .wrap li:first-child+li,
+.party_person .wrap li:first-child+li+li,
+.party_person .wrap li:first-child+li+li+li{
+    /*padding-top:0;*/
+}
+.party_person .wrap li .item{
+    border:1px solid #d9d9d9;
+}
+.party_person .wrap li:nth-child(3n){
+    marign-right:0;
+}
+.party_person .wrap li a , .party_person .wrap li a img{
+    display:block;
+    width:100%;
+}
+.party_person .wrap li .details{
+    padding:12px 20px;
+    background:#ececec;
+    display:none;
+}
+.party_person .wrap li .details p{
+    font:12px/18px '微软雅黑';
+    color:#a9a9a9;
+    cursor: pointer;
+}
+.party_person .wrap li h2{
+    margin-top:6px;
+}
+.party_person .wrap li h2 a{
+    font:14px/34px '微软雅黑';
+    color:#3d3d3d;
+    text-align:center;
+}
+.party_person .wrap li h3{
+    font:14px'微软雅黑';
+    color:#838383;
+    text-align:center;
+    padding-bottom:22px;
+    background:url("../img/down_trangile.png") no-repeat center bottom;
+    background-size:7%;
+    margin-bottom:28px;
+    cursor:pointer;
+}

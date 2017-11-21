@@ -1,0 +1,31 @@
+
+.content{
+    padding-bottom:46px;
+}
+.aviation{
+    padding-bottom:56px;
+}
+.aviation h2{
+    font:16px/24px '微软雅黑';
+    color:#848484;
+    padding-bottom:26px;
+}
+.aviation p{
+    font:16px/24px '微软雅黑';
+    color:#848484;
+}
+
+/*opation*/
+.opation{
+    margin-top:40px;
+}
+.opation a , .opation a img{
+    display:block;
+    width:100%;
+}
+
+.opation p{
+    font:16px/24px '微软雅黑';
+    color:#8c8c8c;
+    margin-top:68px;
+}

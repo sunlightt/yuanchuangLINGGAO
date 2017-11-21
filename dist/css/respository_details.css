@@ -1,0 +1,30 @@
+
+.content{
+    padding-bottom:138px;
+}
+.msg{
+    padding-top:24px;
+}
+.msg p{
+    font:16px/24px '微软雅黑';
+    color:#868686;
+}
+
+/*功能区*/
+.function{
+    padding-top:24px;
+}
+.function p{
+    font:16px/24px '微软雅黑';
+    color:#868686;
+}
+
+
+/*图片展示*/
+.opation{
+    padding-top:48px;
+}
+.opation a , .opation  a img{
+    display:block;
+    width:100%;
+}

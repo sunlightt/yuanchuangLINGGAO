@@ -1,0 +1,17 @@
+
+.content{
+    padding-bottom:138px;
+}
+.opation{
+    margin-top:30px;
+}
+.opation p{
+    font:14px/26px '微软雅黑';
+    color:#929292;
+    text-index:2em;
+    padding-bottom:30px;
+}
+.opation .img , .opation .img img{
+    display:block;
+    width:100%;
+}
